@@ -11,8 +11,49 @@ h1{
     background-color: aqua;
 }
 
-.container{
+h4{
     display: flex;
-    align-items: top;
     justify-content: center;
+    align-items: center;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.card{
+    border: 1px solid blue;
+    border-radius: 16px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    align-items: bottom;
+    justify-content: space-between;
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+}
+
+.quote{    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container-quote{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    background-color: #1F2937
 }
