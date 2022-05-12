@@ -20,11 +20,6 @@ h4{
     
 }
 
-img {
-    width: 200px;
-    height: 200px;
-    background-color: rgb(235, 224, 224);
-  }
 
 .header{
     display: flex;
@@ -45,6 +40,13 @@ img {
     justify-content: center;
     background-color: #1F2937;
 }
+
+.img {
+    width: 500px;
+    height: 200px;
+    background-color: rgb(235, 224, 224);
+  }
+
 
 .card{
     border: 1px solid blue;
